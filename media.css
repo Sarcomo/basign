@@ -126,10 +126,7 @@
     .cover-text {
         max-width: 280px;
     }
-
-
-
-    #null {
+    .null {
         width: 0px;
         opacity: 0;
         position: absolute;
