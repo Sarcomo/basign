@@ -160,3 +160,10 @@
         padding: 20px 0;
     }
 }
+
+@media (max-width: 360px) {
+
+    .container {
+        max-width: 280px;
+    }
+}
