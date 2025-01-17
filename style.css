@@ -41,6 +41,12 @@ h1 {
     margin: 0;
     color: white;
 }
+h2 {
+    font-size: 56px;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
 
 p {
     font-size: 20px;
@@ -73,7 +79,7 @@ p {
 }
 
 .cover-text {
-    max-width: 510px;
+    max-width: 670px;
 }
 
 #grad {
@@ -235,4 +241,17 @@ footer a {
 footer a:hover {
     color: #FFBA24;
     text-decoration: underline;
+}
+
+header a:hover {
+    color: #FFBA24;
+    text-decoration: underline;
+}
+
+.link-arrow {
+    width: 15px;
+    height: 15px;
+    background-image: url('./img/link.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
