@@ -6,23 +6,6 @@
     <title>basign studio</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./media.css">
-    <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();
-   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-   ym(99126678, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/99126678" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
 </head>
 <body>
 
@@ -35,7 +18,7 @@
         <ul>
             <li><a href="./index.html">Главная</a></li>
             <li><a href="">Кейсы</a></li>
-            <li><p>+7 (123) 456-78-90</p></li>
+            <li><p><a href="tel:+71234567890">+7 (123) 456-78-90</a></p></li>
         </ul>
         </nav>
     </header>
@@ -45,12 +28,11 @@
 <div class="bg-container">
     
     <div class="container">
-        <section class="cover">
+        <div class="cover">
             <div class="info">
                 <div class="cover-text">
                     <div class="title">
-                        <h1>basign studio —</h1>
-                        <h1 id="grad">резюме</h1>
+                        <h1>basign studio: работы в области UX/UI дизайна</h1>
                     </div>
                     <p>Меня зовут Жамсаранжапов Баясхалан, учусь в ИГУ на направлении Прикладная информатика в дизайне.</p>
                 </div>
@@ -70,16 +52,16 @@
 
 
 <section class="grid-container">
-    <h1 class="h-color">Кейсы</h1>
+    <article><h2 class="h-color">Кейсы</h1></article>
 
     <div class="card-1">
         <a href="https://dprofile.ru/case/50316/backpack-perry-e-commerce-website" target="_blank">
             <div class="card">
-                <img src="./img/card1.png" alt="card1">
+                <img src="./img/card1.png" alt="пример дизайн-макета для интернет-магазина рюкзаков">
             </div>
             <div class="card-title">
                 <p class="card-font">Backpack Perry</p>
-                <img src="./img/link.svg" alt="get_link">
+                <div class="link-arrow"></div>
             </div>
         </a>
     </div>
@@ -99,11 +81,11 @@
     <div class="card-4">
         <a href="https://dprofile.ru/case/50318/astroshop-e-commerce" target="_blank">
             <div class="card">
-                <img src="./img/card2.png" alt="card4">
+                <img src="./img/card2.png" alt="пример дизайн-макета для интернет-магазина телескопов">
             </div>
             <div class="card-title">
                 <p class="card-font">Astroshop</p>
-                <img src="./img/link.svg" alt="get_link">
+                <div class="link-arrow"></div>
             </div>
         </a>
     </div>
@@ -111,11 +93,11 @@
     <div class="card-5">
         <a href="https://dprofile.ru/case/50321/seedia-corporate-website" target="_blank">
             <div class="card">
-                <img src="./img/card3.png" alt="card5">
+                <img src="./img/card3.png" alt="пример дизайн-макета для интернет-магазина искусственных растений">
             </div>
             <div class="card-title">
                 <p class="card-font">SEEDIA</p>
-                <img src="./img/link.svg" alt="get_link">
+                <div class="link-arrow"></div>
             </div>
         </a>
     </div>
@@ -134,11 +116,11 @@
     <div class="card-8">
         <a href="https://dprofile.ru/case/50319/liderhouse-landing-page" target="_blank">
             <div class="card">
-                <img src="./img/card4.png" alt="card8">
+                <img src="./img/card4.png" alt="пример дизайн-макета для агенства по недвижимости">
             </div>
             <div class="card-title">
                 <p class="card-font">Lidehouse</p>
-                <img src="./img/link.svg" alt="get_link">
+                <div class="link-arrow"></div>
             </div>
         </a>
     </div>
@@ -146,17 +128,16 @@
     <div class="card-9">
         <a href="https://dprofile.ru/case/50327/vetro-corporate-website" target="_blank">
             <div class="card">
-                <img src="./img/card5.png" alt="card9">
+                <img src="./img/card5.png" alt="пример дизайн-макета для корпоративного сайта продажи альтернативного источника энергии">
             </div>
             <div class="card-title">
                 <p class="card-font">VETRO</p>
-                <img src="./img/link.svg" alt="get_link">
+                <div class="link-arrow"></div>
             </div>
         </a>
     </div>
 </section>
 </main>
-
 <footer>
     <div class="footer-container">
         <div class="footer-logo">
@@ -168,11 +149,16 @@
                 <li><a href="portfolio.html">Кейсы</a></li>
             </ul>
         </nav>
-        <div class="footer-contact">
-            <p>+7 (123) 456-78-90</p>
-            <p>basignb@gmail.com</p>
+        <div class="footer-contact vcard">
+            <p>
+                <a class="tel" href="tel:+71234567890">+7 (123) 456-78-90</a>
+            </p>
+            <p>
+                <a class="email" href="mailto:basignb@gmail.com">basignb@gmail.com</a>
+            </p>
         </div>
     </div>
 </footer>
+
 </body>
 </html>
