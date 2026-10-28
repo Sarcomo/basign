@@ -1,0 +1,5 @@
+.env
+*.bak
+backup/
+*.tar.gz
+.DS_Store
